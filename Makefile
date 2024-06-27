@@ -25,7 +25,8 @@ PGBOUNCER_EXPORTER_VERSION?=0.7.0
 PGBACKREST_EXPORTER_VERSION?=0.16.2
 
 # This is used to build the docker --platform, so pick amd64 or arm64
-PLATFORM?=amd64
+# PLATFORM?=amd64
+PLATFORM?=ppc64le
 
 DOCKER_TAG_POSTFIX?=
 ALL_VERSIONS?=false
